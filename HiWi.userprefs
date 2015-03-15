@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Interaction\InteractionMethoden\WorldEvents.cs">
+    <Files>
+      <File FileName="Assets\Interaction\InteractionMethoden\DeleteObjects.cs" Line="46" Column="43" />
+      <File FileName="Assets\Scripts\s_VisualEdge.cs" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\s_VisualNode.cs" Line="7" Column="1" />
+      <File FileName="Assets\Interaction\InteractionMethoden\WorldEvents.cs" Line="26" Column="30" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
