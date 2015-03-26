@@ -44,16 +44,20 @@ namespace FAR{
     		foreach(GameObject listener in Listeners)
     		{
     			//Sucht alle Skripten am angehängten Objekt heraus
-    			MonoBehaviour[] AllScriptsOnObj = listener.GetComponents<MonoBehaviour>();
-    			
-    			foreach(MonoBehaviour temp in AllScriptsOnObj)
+    			if(listener != null)
     			{
-    				//Nutzt das Objekt das ACTION-Interface...
-    				if(temp is Action)
-    				{
-    					//...wird es zu unseren Aktionen hinzugefügt und reagiert auf EVENTS
-    					Actions.Add((Action)temp);
-    				}
+    				MonoBehaviour[] AllScriptsOnObj = listener.GetComponents<MonoBehaviour>();
+    			
+    			
+	    			foreach(MonoBehaviour temp in AllScriptsOnObj)
+	    			{
+	    				//Nutzt das Objekt das ACTION-Interface...
+	    				if(temp is Action)
+	    				{
+	    					//...wird es zu unseren Aktionen hinzugefügt und reagiert auf EVENTS
+	    					Actions.Add((Action)temp);
+	    				}
+	    			}
     			}
     
     		}

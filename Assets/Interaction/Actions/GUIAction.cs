@@ -27,18 +27,8 @@ namespace FAR{
                 DragEvent devt = (DragEvent) evt;
                 if(devt.Obj == this.gameObject)
                 {
-                    RectTransform RT = this.GetComponent<RectTransform>();
-                    //RT.localPosition = new Vector3(devt.newPos.pos.x,devt.newPos.pos.y,RT.localPosition.z);
-                    //RT.position = new Vector3(devt.newPos.pos.x,devt.newPos.pos.y,RT.localPosition.z);
-                    //RT.anchoredPosition = new Vector2(devt.newPos.pos.x*2,devt.newPos.pos.y*2);
-                    //RT.gameObject.transform.position = new Vector3(devt.newPos.pos.x*10,devt.newPos.pos.y*10,RT.gameObject.transform.position.z);
-                    
-                    //CalculateNewGUIPos();
 
-           
-                    
                     RotationCenter.transform.LookAt(devt.newPos.pos);
-                    //this.GetComponent<ScrollListTest>().AllocateGridElementsToCamera();
                 }
                 
 

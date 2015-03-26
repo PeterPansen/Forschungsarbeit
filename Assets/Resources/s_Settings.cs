@@ -52,7 +52,8 @@ public class s_Settings : MonoBehaviour {
     public bool ShowSensorNetwork = false;
     
     public string DeleteKey = "x";
-
+	public string SaveKey = "s";
+	public string LoadKey = "l";
 
 
 

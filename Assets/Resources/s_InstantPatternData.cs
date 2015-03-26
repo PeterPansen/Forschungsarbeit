@@ -22,13 +22,4 @@ public class s_InstantPatternData : s_PatternData {
 		this.PatternDescription = PD.PatternDescription;
 	}
 
-	// Use this for initialization
-	void Start () {
-
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 }

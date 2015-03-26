@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{2F6AC5C3-0868-F578-0033-B7AA0EC97C6C}</ProjectGuid>
+	<ProjectGuid>{801F9A70-C299-957D-A614-A7C962CE5932}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -51,6 +51,7 @@
      <Compile Include="Assets\Interaction\Actions\Action.cs" />
      <Compile Include="Assets\Interaction\Actions\ButtonAction.cs" />
      <Compile Include="Assets\Interaction\Actions\CameraAction.cs" />
+     <Compile Include="Assets\Interaction\Actions\DFGParserAction.cs" />
      <Compile Include="Assets\Interaction\Actions\DefaultAction.cs" />
      <Compile Include="Assets\Interaction\Actions\EdgeAction.cs" />
      <Compile Include="Assets\Interaction\Actions\ExampleAction.cs" />
@@ -80,7 +81,7 @@
      <Compile Include="Assets\Interaction\InteractionMethoden\MergeHandler.cs" />
      <Compile Include="Assets\Interaction\InteractionMethoden\MouseInteraction.cs" />
      <Compile Include="Assets\Interaction\InteractionMethoden\MouseObjectSelector.cs" />
-     <Compile Include="Assets\Interaction\InteractionMethoden\WorldEvents.cs" />
+     <Compile Include="Assets\Interaction\InteractionMethoden\TrackManController.cs" />
      <Compile Include="Assets\Private\CameraUtils\ARWindow.cs" />
      <Compile Include="Assets\Resources\Audio.cs" />
      <Compile Include="Assets\Resources\LR.cs" />
@@ -156,16 +157,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

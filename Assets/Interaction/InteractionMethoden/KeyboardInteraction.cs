@@ -49,7 +49,6 @@ namespace FAR{
     						temp[0] = (char)t;
     					}
                        
-    					
     					KeyboardEvent evt = new KeyboardEvent(temp[0],CreateTimeStamp(),this.gameObject.GetComponent<KeyboardInteraction>(),null);
     					fireEvent(evt);
     				}
@@ -89,7 +88,6 @@ namespace FAR{
                             t -= 0x20;
                             temp[0] = (char)t;
                         }
-                        
                         
                         SingleKeyboardEvent evt = new SingleKeyboardEvent(temp[0],CreateTimeStamp(),this.gameObject.GetComponent<KeyboardInteraction>(),null);
                         fireEvent(evt);

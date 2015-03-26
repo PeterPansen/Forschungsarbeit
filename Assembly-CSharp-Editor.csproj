@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{CD61FDD0-7895-D178-B361-A3FA4A9C45F2}</ProjectGuid>
+	<ProjectGuid>{B880D479-A623-9BC0-F489-70C0F33CEC47}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -61,16 +61,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -105,9 +105,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{2F6AC5C3-0868-F578-0033-B7AA0EC97C6C}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{801F9A70-C299-957D-A614-A7C962CE5932}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{395D116A-FE15-50E9-EDF1-C0EE07FF2F86}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+      <Project>{3AC29445-F66C-ECF8-80DE-92E26C602491}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

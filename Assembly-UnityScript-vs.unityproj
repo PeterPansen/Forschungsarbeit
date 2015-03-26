@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{395D116A-FE15-50E9-EDF1-C0EE07FF2F86}</ProjectGuid>
+	<ProjectGuid>{3AC29445-F66C-ECF8-80DE-92E26C602491}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -63,16 +63,16 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -10,11 +10,12 @@ namespace FAR{
         s_Settings Einstellungen;
     
     	// Use this for initialization
-    	void Start () {
-    	
-            base.Start();
-            Einstellungen = GameObject.Find("Settings").GetComponent<s_Settings>();
-    	}
+		override public void Start () {
+			
+			base.Start();
+			Einstellungen = GameObject.Find ("Settings").GetComponent<s_Settings>();
+			
+		}
         
         // Update is called once per frame
         void Update () {

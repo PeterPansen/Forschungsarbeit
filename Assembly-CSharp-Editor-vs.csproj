@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{CD61FDD0-7895-D178-B361-A3FA4A9C45F2}</ProjectGuid>
+	<ProjectGuid>{B880D479-A623-9BC0-F489-70C0F33CEC47}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -58,22 +58,22 @@
      <None Include="Assets\Resources\TestCameraOpenGLTextureUpdateAndMarker.dfg.xml" />
      <None Include="Assets\Resources\TestCameraOpenGLTextureUpdateAndMultiMarker.dfg.xml" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UbitrackDotNet">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UbitrackDotNet.dll</HintPath>
  </Reference>
  <Reference Include="UnityTextureUpdate">
- <HintPath>C:/Users/Andreas/Documents/HiWi/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
+ <HintPath>C:/Users/Andreas/Documents/Forschungsarbeit/Assets/Ubitrack/Plugins/UnityTextureUpdate.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{2F6AC5C3-0868-F578-0033-B7AA0EC97C6C}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+      <Project>{801F9A70-C299-957D-A614-A7C962CE5932}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

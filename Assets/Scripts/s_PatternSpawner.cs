@@ -15,12 +15,11 @@ public class s_PatternSpawner : InteractionMethod {
     LayoutManager Layouter;
 
 
-	// Use this for initialization
-	void Start () {
-    
-        base.Start();
-        Layouter = GameObject.Find("LayoutSpawner").GetComponent<LayoutManager>();
-	
+	override public void Start () {
+		
+		base.Start();
+		Layouter = GameObject.Find ("LayoutSpawner").GetComponent<LayoutManager>();
+		
 	}
 	
 	// Update is called once per frame
