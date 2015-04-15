@@ -80,10 +80,10 @@ namespace FAR{
     			Twinkie = null;
     		}
     
-    	//EditorGUILayout.Space();
-    	//EditorGUILayout.TextArea("--------------------------");
-    	//EditorGUILayout.Space();
-    	//DrawDefaultInspector();
+    	EditorGUILayout.Space();
+    	EditorGUILayout.TextArea("--------------------------");
+    	EditorGUILayout.Space();
+    	DrawDefaultInspector();
     
     	}
     	

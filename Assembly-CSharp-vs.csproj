@@ -62,6 +62,7 @@
      <Compile Include="Assets\Interaction\Events\DFGEvent.cs" />
      <Compile Include="Assets\Interaction\Events\DeleteEvent.cs" />
      <Compile Include="Assets\Interaction\Events\DragEvent.cs" />
+     <Compile Include="Assets\Interaction\Events\FileBrowserEvent.cs" />
      <Compile Include="Assets\Interaction\Events\HoverEvent.cs" />
      <Compile Include="Assets\Interaction\Events\InteractionEvent.cs" />
      <Compile Include="Assets\Interaction\Events\KeyboardEvent.cs" />
@@ -101,6 +102,7 @@
      <Compile Include="Assets\Scripts\RotateObject.cs" />
      <Compile Include="Assets\Scripts\ScrollListTest.cs" />
      <Compile Include="Assets\Scripts\SwitchScene.cs" />
+     <Compile Include="Assets\Scripts\fileManager.cs" />
      <Compile Include="Assets\Scripts\s_PatternReader.cs" />
      <Compile Include="Assets\Scripts\s_PatternSpawner.cs" />
      <Compile Include="Assets\Scripts\s_Spawner.cs" />
